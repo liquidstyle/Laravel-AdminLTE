@@ -6,15 +6,15 @@ use Illuminate\Auth\GenericUser;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Routing\RouteCollection;
-use JeroenNoten\LaravelAdminLte\AdminLte;
-use JeroenNoten\LaravelAdminLte\Menu\Builder;
-use JeroenNoten\LaravelAdminLte\Menu\ActiveChecker;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\GateFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\HrefFilter;
+use Liquidstyle\LaravelAdminLte\AdminLte;
+use Liquidstyle\LaravelAdminLte\Menu\Builder;
+use Liquidstyle\LaravelAdminLte\Menu\ActiveChecker;
+use Liquidstyle\LaravelAdminLte\Menu\Filters\GateFilter;
+use Liquidstyle\LaravelAdminLte\Menu\Filters\HrefFilter;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\ActiveFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\ClassesFilter;
-use JeroenNoten\LaravelAdminLte\Menu\Filters\SubmenuFilter;
+use Liquidstyle\LaravelAdminLte\Menu\Filters\ActiveFilter;
+use Liquidstyle\LaravelAdminLte\Menu\Filters\ClassesFilter;
+use Liquidstyle\LaravelAdminLte\Menu\Filters\SubmenuFilter;
 use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
 
 class TestCase extends PHPUnit_Framework_TestCase

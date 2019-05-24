@@ -1,6 +1,6 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Console;
+namespace Liquidstyle\LaravelAdminLte\Console;
 
 use Illuminate\Auth\Console\MakeAuthCommand;
 

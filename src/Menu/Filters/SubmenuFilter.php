@@ -1,8 +1,8 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte\Menu\Filters;
+namespace Liquidstyle\LaravelAdminLte\Menu\Filters;
 
-use JeroenNoten\LaravelAdminLte\Menu\Builder;
+use Liquidstyle\LaravelAdminLte\Menu\Builder;
 
 class SubmenuFilter implements FilterInterface
 {

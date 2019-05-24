@@ -1,16 +1,16 @@
 <?php
 
-namespace JeroenNoten\LaravelAdminLte;
+namespace Liquidstyle\LaravelAdminLte;
 
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Contracts\Config\Repository;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Contracts\Container\Container;
-use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
-use JeroenNoten\LaravelAdminLte\Console\AdminLteMakeCommand;
-use JeroenNoten\LaravelAdminLte\Console\MakeAdminLteCommand;
+use Liquidstyle\LaravelAdminLte\Events\BuildingMenu;
+use Liquidstyle\LaravelAdminLte\Console\AdminLteMakeCommand;
+use Liquidstyle\LaravelAdminLte\Console\MakeAdminLteCommand;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use JeroenNoten\LaravelAdminLte\Http\ViewComposers\AdminLteComposer;
+use Liquidstyle\LaravelAdminLte\Http\ViewComposers\AdminLteComposer;
 
 class ServiceProvider extends BaseServiceProvider
 {

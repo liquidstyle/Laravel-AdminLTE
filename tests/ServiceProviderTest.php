@@ -2,8 +2,8 @@
 
 use Illuminate\Config\Repository;
 use Illuminate\Events\Dispatcher;
-use JeroenNoten\LaravelAdminLte\ServiceProvider;
-use JeroenNoten\LaravelAdminLte\Events\BuildingMenu;
+use Liquidstyle\LaravelAdminLte\ServiceProvider;
+use Liquidstyle\LaravelAdminLte\Events\BuildingMenu;
 
 class ServiceProviderTest extends TestCase
 {
